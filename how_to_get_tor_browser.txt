@@ -1,0 +1,37 @@
+Hello, in this video, we will show you how to get Tor Browser.
+
+The first method is getting Tor Browser from the official website https://torproject.org/
+
+*Opens a web browser (preferably the system's default. If the system is OSX then use Safari) and visits https://torproject.org/* 
+
+*webpage loads*
+
+Now we go to the download page
+
+*clicks Download button*
+
+Hit download Tor Browser then save its cryptographic signature.
+
+*clicks the download button and right clicks the sig and selects "Download linked file as.." to avoid opening the file using the browser*
+
+If the official website is blocked for you, use one of the following mirrors on screen which are identical mirrors of the official website.
+
+*opens a text file containing a list of https mirrors with big fonts so users can copy them easily*
+
+The second method is getting Tor Browser by email. 
+
+*opens his email account*
+
+You will send an email from your account to our automatic responder gettor@torproject.org requesting the proper Tor Browser for your operating system. For example: if you are using Mac OS X then you will write "osx" in the email's body, another supported keywords are windows and linux.
+
+*composes a new email, types in the to: field gettor@torproject.org and in the body osx and hits send and waits for a response*
+
+The response shouldn't take long.
+
+*waits for the response*
+
+As you can see the email contains direct download links to the requested Tor Browser and its cryptographic signature.
+
+If you're having trouble getting Tor Browser, please email help@rt.torproject.org
+
+Thanks for watching.

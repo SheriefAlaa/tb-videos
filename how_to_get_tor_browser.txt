@@ -32,6 +32,8 @@ The response shouldn't take long.
 
 As you can see the email contains direct download links to the requested Tor Browser and its cryptographic signature.
 
+### mention more methods here ###
+
 If you're having trouble getting Tor Browser, please email help@rt.torproject.org
 
 Thanks for watching.

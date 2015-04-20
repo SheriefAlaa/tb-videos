@@ -1,0 +1,54 @@
+Hi, in the video we will show you what to do if Tor Browser fails to connect because your computer is behind a restrictive firewall.
+
+First, let's run Tor Browser.
+
+*opens Tor Browser*
+*screen shows the first time start ("Connect" and "Configure")*
+
+In most cases, you will just hit "Connect" and Tor will just work. However, if you are behind a restrictive firewall, you will need to use bridges. So let's click "Configure" to tell Tor Browser to use bridges.
+
+*clicks "Configure" then "Yes" to the first question then "Next"*
+
+Here is where you make Tor Browser use the provided bridges, simply enough all you have to do is select the bridge type. In this case, we will just leave it as the recommended type and hit "Next" then "Connect".
+
+If Tor Browser still fails to connect then the provided bridges may have been blocked and you will need to get custom bridges.
+
+*cancels the connection window and chooses to configure again then opens the bridges window to enter custom bridges*
+
+There are two ways to get custom bridges. The first is our website "https://bridges.torproject.org/" or by email.
+
+Let's see how to get bridges from https://bridges.torproject.org/
+
+*Opens firefox and types https://bridges.torproject.org/ and hits enter*
+
+You can either get "normal" bridges or pluggable transport bridges such as obfs3, obfs4 or fte. If normal bridges do not work for you get some pluggable transport ones instead.
+
+To get any bridges from the website, we will have to write a captcha!
+
+*clicks on "Just give me bridges" and solves the captcha*
+
+There, we got some normal bridges. Now let's enter them in Tor Browser.
+
+*switches to Tor Browser and pastes the bridges acquired from bridges.torproject.org*
+
+*Selects "Yes" and clicks "Next"*
+
+*pastes in the bridges and clicks "Next"*
+
+The second method you can use to get bridges is by emailing our automatic responder, bridges@torproject.org with specific keywords and it will send you a set of bridges accordingly.
+
+*opens a test mail account, enters the to: field as bridges@torproject.org*
+
+The keywords are either "get bridges" to get normal bridges and "get transport type" where "type" can be obfs3/obfs4/fte/etc...
+
+As a test, we will get some obfs3 bridges.
+
+*types in the mail body "get transport obfs3 and hits send.*
+
+*waits for bridgedb's response*
+
+*email arrives*
+
+*opens mail*
+
+And here's our obfs3 bridges.

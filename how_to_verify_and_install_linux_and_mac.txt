@@ -1,0 +1,44 @@
+Hi, in this video we will show you how to verify Tor Browser on Mac OS and Linux.
+
+First please make sure you've watched our how to download video to get all the necessary files for this video.
+
+Next, open the torproject website
+
+*opens firefox and visits https://torproject.org/*
+
+Then we will go to the documentation section to take a look on the how to verify page.
+
+*clicks on "Documentation" then "Installation guides" in the side bar then finally chooses "Verify our GPG signatures" and scrolls to the Mac and Linux section*
+
+As the guide stats "You need to have GnuPG (Or GPGTools for Mac OS) before you can verify signatures".
+
+If you are using Linux then you don't need to install GnuPG since your OS will have it installed by default. However, on a Mac, you will need to go to https://gpgtools.org and install it.
+
+Now let's proceed with the verification process by opening a Terminal window.
+
+*opens spotlight and types "terminal" and hits return*
+
+First lets get the Tor Browser developers key by copy pasting this command into the Terminal.
+
+*copies gpg --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290 and pastes it in the terminal then hits enter*
+
+Then, you should see the following...
+
+*shows the verifying signature page and selects the "You should see" portion"*
+
+Finally, before verifying, make sure that all of the necessary files are on your Desktop. The files are TorBrowser.dmg and .asc.
+
+Now let's tell the terminal to change its current working directory or folder to the Desktop using the "cd Desktop" command.
+
+*types cd Desktop in a terminal and hits enter*
+
+To verify, copy the appropriate line for your system, since we're using a Mac, we will copy its line and paste it into the terminal and hit return.
+
+*shows the verifying signature page*
+*copies gpg --verify ~/Desktop/TorBrowser-4.5-osx64_en-US.dmg{.asc*,} and pastes into a terminal*
+
+Now you should get a "Good signature from "Tor Browser Developers (signing key) "".
+
+Thanks for watching and if you have any questions please email help@rt.torproject.org
+
+*shows a black screen saying "Thank you for watching. Got questions? email: help@rt.torproject.org"*

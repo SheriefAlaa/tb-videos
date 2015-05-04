@@ -1,4 +1,4 @@
-Hi, in this video we will show you how to verify Tor Browser on Mac OS and Linux.
+Hi, in this video we will show you how to verify and install Tor Browser on Mac OS and Linux.
 
 First please make sure you've watched our how to download video to get all the necessary files for this video.
 
@@ -38,6 +38,20 @@ To verify, copy the appropriate line for your system, since we're using a Mac, w
 *copies gpg --verify ~/Desktop/TorBrowser-4.5-osx64_en-US.dmg{.asc*,} and pastes into a terminal*
 
 Now you should get a "Good signature from "Tor Browser Developers (signing key) "".
+
+To install Tor Browser on Linux you just have to extract the compressed package. However, on a Mac, must open the .dmg file...
+
+*shows the desktop screen, opens the torbrowser.dmg*
+
+Then drag TorBrowser to the Applications folder..
+
+*drags TorBrowser to the Applications folder*
+
+Now, let's close the installer and eject it.
+
+*closes the installer, shows the desktop and Control clicks the installer then selects "Eject".
+
+Finally you can open Tor Browser from spotlight just like any other application and pin it to your Dock.
 
 Thanks for watching and if you have any questions please email help@rt.torproject.org
 
